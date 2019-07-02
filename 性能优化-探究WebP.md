@@ -111,5 +111,6 @@ implementation 'com.facebook.fresco:webpsupport:1.10.0'
 #### 参考资料
 - [谷歌webp](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/automating-image-optimization/?hl=zh-cn)
 - [京东凹凸实验室](https://aotu.io/notes/2016/06/23/explore-something-of-webp/index.html)
+- [webp在项目中的实践](https://www.jianshu.com/p/73ca9e8b986a)
 
 
