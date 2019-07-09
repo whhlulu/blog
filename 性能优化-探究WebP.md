@@ -1,6 +1,7 @@
-# 性能优化-探究WebP
+> 作者：lulu
+> [原文](https://github.com/whhlulu/blog)
 
-![0db963b36ed059dd4f1623198f67011b.jpeg](evernotecid://D0AE4054-ADFA-401E-B09B-0C01AF6E4F1D/appyinxiangcom/13527544/ENResource/p1994)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190703193136721.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3doaDE4MQ==,size_16,color_FFFFFF,t_70)
 
 ## 前言
 > 不管是PC还是移动端，图片一直是流量大头。
@@ -22,7 +23,7 @@
 WebP目前支持桌面上的Chrome、Opera和Fixfox浏览器，
 手机支持原生的Android浏览器、Android系统上的所有浏览器、及iOS系统的QQ、Baidu浏览器（目前iOS系统兼容性较差）。
 
-![2b9cf4e31483aac95d28eab55b3a1e4d.png](evernotecid://D0AE4054-ADFA-401E-B09B-0C01AF6E4F1D/appyinxiangcom/13527544/ENResource/p1993)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019070319315223.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3doaDE4MQ==,size_16,color_FFFFFF,t_70)
 
 根据对目前`2019年06月20日`浏览器占比与WebP的兼容性分析，如果采用WebP图片，大约有`78%`的用户可以直接体验到。
 
@@ -96,7 +97,7 @@ https://help.aliyun.com/document_detail/44703.html?spm=a2c4g.11186623.6.1381.110
 ### 3.React-Native改造
 在 Android 上支持 WebP 格式图片（rn-ios情况如何？？）
 - 需要在android/app/build.gradle文件中根据需要手动添加以下模块
-``` java
+```java
 dependencies {
 // 如果你需要支持Android4.0(API level 14)之前的版本
 implementation 'com.facebook.fresco:animated-base-support:1.10.0'
@@ -112,5 +113,4 @@ implementation 'com.facebook.fresco:webpsupport:1.10.0'
 - [谷歌webp](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/automating-image-optimization/?hl=zh-cn)
 - [京东凹凸实验室](https://aotu.io/notes/2016/06/23/explore-something-of-webp/index.html)
 - [webp在项目中的实践](https://www.jianshu.com/p/73ca9e8b986a)
-
 

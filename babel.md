@@ -1,3 +1,6 @@
+> 作者：xiaopang
+> [原文](https://github.com/whhlulu/blog)
+
 # Babel 
 # 构建/webpack #babel
 

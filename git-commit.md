@@ -1,3 +1,6 @@
+> 作者：lulu
+> [原文](https://github.com/whhlulu/blog)
+
 # 用工具思路来规范化 git commit message
 
 ### 为什么要规范 Git Commit Message
