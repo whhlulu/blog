@@ -89,7 +89,7 @@
   "dependencies": {
     "@sentry/browser": "5.7.1",
     "anole-lego": "http://huihua.wang:!Whh2ahs@code.aihuishou.com/AihuishouFE/anole-lego.git#uat0.3.1.2",
-    "axios": "0.18.0",
+    "axios": "0.19.0",
     "classnames": "^2.2.6",
     "dayjs": "1.8.12",
     "expo-web": "^0.0.12",
