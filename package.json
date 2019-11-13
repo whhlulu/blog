@@ -124,6 +124,6 @@
     "rmc-notification": "1.0.0",
     "sa-sdk-javascript": "1.12.18",
     "webpack": "3.11.0",
-    "webpack-dev-server": "2.7.1"
+    "webpack-dev-server": "3.9.0"
   }
 }
